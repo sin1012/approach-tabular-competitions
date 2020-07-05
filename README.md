@@ -1,5 +1,5 @@
 # <center> Approach Tabular Competitions
-- XGB with categorical features only:
+- **XGB** with categorical features only + default parameters:
 ```
 Fold = 0, AUC = 0.9017815887538851
 Fold = 1, AUC = 0.9012713246359005
@@ -11,7 +11,7 @@ Private score: `0.86974`
   
 Public score: `0.87227`
   
-- XGB with all features:
+- XGB with all features + default parameters:
 ```
 Fold = 0, AUC = 0.9359181303448872
 Fold = 1, AUC = 0.936000110274057
