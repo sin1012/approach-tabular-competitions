@@ -22,3 +22,15 @@ Fold = 4, AUC = 0.9306190223788716
 Private score: `0.90225`
 
 Public score: `0.90464`
+
+- **LGB** with all features + default parameters:
+```
+Fold = 0, AUC = 0.936719286622042
+Fold = 1, AUC = 0.936488801201363
+Fold = 2, AUC = 0.9358271568591243
+Fold = 3, AUC = 0.9331580305261477
+Fold = 4, AUC = 0.9308395965009834
+```
+Private score: `0.90145`
+
+Public score: `0.90145`
