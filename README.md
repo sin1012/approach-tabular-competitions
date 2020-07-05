@@ -7,7 +7,10 @@ Fold = 2, AUC = 0.9029613005680674
 Fold = 3, AUC = 0.900086372675337
 Fold = 4, AUC = 0.8939898298190413
 ```
-
+Private score: `0.86974`
+  
+Public score: `0.87227`
+  
 - XGB with all features:
 ```
 Fold = 0, AUC = 0.9359181303448872
@@ -16,3 +19,6 @@ Fold = 2, AUC = 0.9351370597295269
 Fold = 3, AUC = 0.9328126958729935
 Fold = 4, AUC = 0.9306190223788716
 ```
+Private score: `0.90225`
+
+Public score: `0.90464`
