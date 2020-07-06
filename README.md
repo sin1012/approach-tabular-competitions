@@ -1,7 +1,15 @@
 # <center> Approach Tabular Competitions
 
 ## Summary
-This is a kaggle in class competition using the census-income dataset(42 columns). The link is: https://www.kaggle.com/c/ml2020spring-hw2. There are many categorical variables in this dataset, so I think it's a good way to demonstrate how to approach tabular competitions. My submissions aren't made during the competition but I was able to beat the first place(`0.90217`) in this competition using a single **XGBoost** model(`0.90225`). Later on, I demonstrated different techniques like **feature engineering**, **target encoding** and **stacking** to achieve even higher score(`0.90383`). Overall, I didn't really spend much effort but enough to illustrate the approaches to tabular competitions.   
+This is a kaggle in class competition using the census-income dataset(42 columns). The link is: https://www.kaggle.com/c/ml2020spring-hw2. There are many categorical variables in this dataset, so I think it's a good way to demonstrate how to approach tabular competitions. My submissions aren't made during the competition but I was able to beat the first place(`0.90217`) in this competition using a single **XGBoost** model(`0.90225`). Later on, I demonstrated different techniques like **feature engineering**, **target encoding** and **stacking** to achieve even higher score(`0.90383`). Overall, I didn't really spend much effort but enough to illustrate the approaches to tabular competitions. To summarize, to get good results in a tabular competitions:
+
+1. Data Understanding by doing EDA(I didn't do much here, but you should)
+2. Data Cleaning, especially categorical variables and missing values
+3. Build a fast, baseline model(for instance **LGB**)
+4. Feature Engineering + Target Encoding, leave what works(meaning CV improvements) and dump what doesn't work.
+5. Hyper parameter tuning for each model, don't **Blend** yet
+6. Blending and Stacking
+7. Post processing(didn't do it here either, it can improve your placings but it's **not a good practice**)
   
 ## Training log
 In this section, we will cover the past experiments.
