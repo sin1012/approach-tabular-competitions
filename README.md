@@ -43,6 +43,9 @@ Fold = 2, AUC = 0.9362173553680317
 Fold = 3, AUC = 0.9322454346800466
 Fold = 4, AUC = 0.9306594908771625
 ```
+Private score: `0.90333` (**first place is: `90207`**)
+
+Public score: `0.90495`
 
 - **LGB** with all features + target encoding +  n_estimators=200, learning_rate=.05, subsample_freq=1, subsample=.7:
 ```
@@ -52,3 +55,6 @@ Fold = 2, AUC = 0.9369765558395055
 Fold = 3, AUC = 0.933722170755216
 Fold = 4, AUC = 0.931267766737079
 ```
+Private score: `0.90303`
+
+Public score: `0.90483`
