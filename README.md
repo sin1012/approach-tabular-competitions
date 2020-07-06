@@ -44,11 +44,11 @@ Fold = 3, AUC = 0.9322454346800466
 Fold = 4, AUC = 0.9306594908771625
 ```
 
-- **LGB** with all features + target encoding +  n_estimators=200, learning_rate=.05:
+- **LGB** with all features + target encoding +  n_estimators=200, learning_rate=.05, subsample_freq=1, subsample=.7:
 ```
-Fold = 0, AUC = 0.9374197849361512
-Fold = 1, AUC = 0.9380046013410781
-Fold = 2, AUC = 0.9366839134598329
-Fold = 3, AUC = 0.9332841954909356
-Fold = 4, AUC = 0.9319811410556036
+Fold = 0, AUC = 0.9381164617831714
+Fold = 1, AUC = 0.9374116442121987
+Fold = 2, AUC = 0.9369765558395055
+Fold = 3, AUC = 0.933722170755216
+Fold = 4, AUC = 0.931267766737079
 ```
