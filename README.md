@@ -34,3 +34,21 @@ Fold = 4, AUC = 0.9308395965009834
 Private score: `0.90145`
 
 Public score: `0.90145`
+
+- **LGB** with all features + target encoding + default parameters:
+```
+Fold = 0, AUC = 0.9374316652794135
+Fold = 1, AUC = 0.937860646882183
+Fold = 2, AUC = 0.9362173553680317
+Fold = 3, AUC = 0.9322454346800466
+Fold = 4, AUC = 0.9306594908771625
+```
+
+- **LGB** with all features + target encoding +  n_estimators=200, learning_rate=.05:
+```
+Fold = 0, AUC = 0.9374197849361512
+Fold = 1, AUC = 0.9380046013410781
+Fold = 2, AUC = 0.9366839134598329
+Fold = 3, AUC = 0.9332841954909356
+Fold = 4, AUC = 0.9319811410556036
+```
