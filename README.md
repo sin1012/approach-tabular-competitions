@@ -43,7 +43,7 @@ Fold = 2, AUC = 0.9362173553680317
 Fold = 3, AUC = 0.9322454346800466
 Fold = 4, AUC = 0.9306594908771625
 ```
-Private score: `0.90333` (**first place is: `90207`**)
+Private score: `0.90333` (**first place is: `0.90207`**)
 
 Public score: `0.90495`
 
